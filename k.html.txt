@@ -56,7 +56,7 @@
             margin-left: auto;
             margin-right: auto; 
             justify-content: space-between;
-            background: linear-gradient(135deg, #141720, #0049ff, #4e7dff);
+            background: linear-gradient(135deg, #141720, #1d1a35, #3f3aac, #4e7dff, #d0e1ff);
             color: white;
             padding: 60px 50px;
             border-radius: 20px;
@@ -95,8 +95,8 @@
         }
 
         .hero .cta {
-            background: #0049ff;
-            color: #ffffff;
+            background: #141720;
+            color: white;
             padding: 15px 30px;
             border-radius: 50px;
             font-size: 16px;
@@ -105,7 +105,7 @@
         }
 
         .hero .cta:hover {
-            background: #4e7dff;
+            background: #0463fb41;
             transform: translateY(-2px);
         }
 
@@ -275,7 +275,7 @@
     height: 80px;
     font-size: 32px;
     margin-bottom: 15px;
-    background: linear-gradient(135deg, #141720, #0049ff, #4e7dff);
+    background: linear-gradient(135deg, #171c2a, #19264d, #153595);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -481,7 +481,7 @@
         }
 
         .submit-btn {
-            background: linear-gradient(135deg, #141720, #0049ff);
+            background: linear-gradient(135deg, #171c2a, #3c64dc);
             color: white;
             border: none;
             padding: 15px 30px;
@@ -494,10 +494,8 @@
         }
 
         .submit-btn:hover {
-            /* transform: translateY(-2px); */
+            transform: translateY(-2px);
             box-shadow: 0 5px 15px #4e7dff9d;
-            background: linear-gradient(135deg, #4e7dff,#141720 );
-            transition: all 1.5s ease;
         }
 
 /* @media (max-width: 768px) { */

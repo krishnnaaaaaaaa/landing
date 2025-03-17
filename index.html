@@ -10,7 +10,10 @@
         :root {
             --primary: #4e7dff;
             --secondary: #141720;
-            --glass: rgba(255, 255, 255, 0.9);
+            --accent: #1fd91e;
+            --white: #ffffff;
+            --blue-ribbon: #0049ff;
+            --blue-berry: #4e7dff;
             --primary-rgb: 78, 125, 255;
         }
 
@@ -44,7 +47,7 @@
         }
 
         .hero-section {
-            background: linear-gradient(135deg, #141720, #2e2a5a, #463fbf, #4e7dff, #d0e1ff);
+            background: linear-gradient(135deg, #141720, #0049ff, #4e7dff);
             padding: 120px 0 80px;
             border-radius: 20px;
             margin: 80px auto 40px; 
@@ -146,8 +149,8 @@
         }
 
         .price-badge {
-            background: var(--primary);
-            color: white;
+            background: #0049ff !important;
+            color: #ffffff;
             padding: 0.5rem 1.5rem;
             border-radius: 20px;
             display: inline-block;
@@ -178,6 +181,7 @@
         .glass-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 12px 40px rgba(31, 38, 135, 0.2);
+            border-color: #4e7dff;
         }
 
         .service-card:nth-child(1) { animation-delay: 0.2s; }
@@ -214,7 +218,7 @@
         }
 
         .text-success {
-            color: #28a745 !important;
+            color: #1fd91e !important;
         }
 
         .comparison-table tr:hover {
@@ -248,12 +252,12 @@
 }
 
 .nav-link:hover {
-    color: var(--primary) !important;
+    color: #0049ff !important;
 }
 
 
 .nav-link.active {
-    color: var(--primary) !important;
+    color: #0049ff !important;
 }
 
     </style>
@@ -965,7 +969,7 @@
     }
 
     .text-success {
-        color: #28a745 !important;
+        color: #1fd91e !important;
     }
 
     .comparison-table tr:hover {
